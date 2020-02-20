@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>35-dars</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">			
+			<a class="navbar-brand d-flex" href="#">
+				<img class="rounded-circle" src="img/my-score.png" alt="myscore" width="50" height="50" />
+			</a>
+			<h3 class="text-white">My Score</h3>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Football<span class="sr-only"></span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">My club</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">My money</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sports</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">Tennis</a>
+							<a class="dropdown-item" href="#">Baseboll</a>
+							<a class="dropdown-item" href="#">Valeboll</a>
+							<a class="dropdown-item" href="#">Basketboll</a>
+							<a class="dropdown-item" href="#">Hackey</a>
+							<a class="dropdown-item" href="#">Golf</a>
+							<a class="dropdown-item" href="#">UFC</a>
+							<a class="dropdown-item" href="#">Boks</a>
+							<a class="dropdown-item" href="#">Swimming</a>
+							<a class="dropdown-item" href="#">Formula 1</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div><!-- /.container -->
+	</nav>
+	<div class="container">
+		<div class="my-3 text-center">
+			<img src="img/uefa.png" alt="uefa" width="150" height="150" />
+		</div><!-- /.header -->
+		<div class="row text-center">
+			<div class="col-sm-4">
+				<img src="img/barca" alt="barca" width="100" height="100" />
+			</div><!-- /.col-lg-4 -->
+			<div class="col-sm-4">
+			<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapse">Teams
+			</button>
+				<h3 class=" my-2 text-white">Next match - ?</h3>
+			<button class="my-2 btn btn-primary"  data-toggle="modal" data-target="#Modal">By ticket</button>
+			</div><!-- /.col-lg-4 -->
+			<div class="col-sm-4">
+				<img src="img/liverpool.png" alt="real" width="100" height="100" />
+			</div><!-- /.col-lg-4 -->
+		</div><!-- /.row -->
+	</div><!-- /.container -->
+
+
+
+	<div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Camp Nou Stadium</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      	<form class="d-flex flex-wrap">
+      		<div class="form-group col-lg-6">
+      			<label class="col-form-label" for="enter-inform"></label>
+      			<input class="form-control" type="text" id="recipient-name" placeholder="Name" />
+      		</div><!-- /.form-group -->
+      		<div class="form-group col-lg-6">
+      			<label class="col-form-label" for="enter-inform"></label>
+      			<input class="form-control" type="text" id="recipient-name" placeholder="Surname" />
+      		</div><!-- /.form-group -->
+      		<div class="form-group col-lg-6">
+      			<label class="col-form-label" for="enter-inform"></label>
+      			<input class="form-control" type="text" id="recipient-name" placeholder="Card number" />
+      		</div><!-- /.form-group -->
+      		<div class="form-group col-lg-6">
+      			<label class="col-form-label" for="enter-inform"></label>
+      			<input class="form-control" type="password" id="recipient-name" placeholder="Card password" />
+      		</div><!-- /.form-group -->
+      		<div class="form-group col-lg-6">
+      			<label class="col-form-label" for="enter-inform"></label>
+      			<input class="form-control" type="month" id="recipient-name" placeholder="Date" />
+      		</div><!-- /.form-group -->
+      	</form>
+      	<p class="h2 text-center text-primary">Ticket 5000$</p>
+      </div>
+      <div class="modal-footer">
+      	<button class="btn btn-success" type="button">Watch online</button>
+        <button type="button" class="btn btn-primary">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="collapse" id="collapse">
+	<div class="container">
+	  <div class="card card-body collapse-bg text-white">
+	  	<div class="row">
+	  		<div class="col-lg-6 text-center">
+	  			<h2>Barcelona</h2>
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-barca" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Ter Shtegen <b>1</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-barca" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">De Light <b>4</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-barca" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Pique <b>3</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-barca" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Jordi Alba <b>18</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-barca" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Semedo <b>2</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-barca" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Busquets <b>5</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-barca" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">De Jong <b>6</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-barca" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Arthur <b>8</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-barca" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Dembele <b>11</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-barca" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Messi <b>10 &copy</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-barca" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Suares <b>9</b></p>
+	  			</div><!-- /.player -->
+	  		</div><!-- /.col-lg-6 -->
+	  		<div class="col-lg-6 text-center">
+	  			<h2>Liverpool</h2>
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-liverpool" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">A.Becker <b>13</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-liverpool" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Virgil <b>4</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-liverpool" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Matip <b>32</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-liverpool" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Alexandr-Arnold <b>66</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-liverpool" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Robertson <b>26</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-liverpool" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Fabinho <b>3</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-liverpool" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Henderson <b>14 &copy</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-liverpool" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Milner <b>7</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-liverpool" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">M.Salah <b>11</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-liverpool" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Mane <b>10</b></p>
+	  			</div><!-- /.player -->
+	  			<div class="player d-flex  justify-content-center">	  				
+	  				<img src="img/form-liverpool" alt="forma" width="20" height="20" />
+	  				<p class="mx-2">Firminio <b>9</b></p>
+	  			</div><!-- /.player -->
+	  		</div><!-- /.col-lg-6 -->
+	  	</div><!-- /.row -->
+	  </div>
+	</div><!-- /.container -->
+</div>
+	<script src="js/jquery-3.4.1.slim.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+html{
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+	box-sizing: inherit;
+}
+body{
+	background-image: url(../img/bg-img.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.collapse-bg{
+	background-color: rgba(0,0,0,0.5);
+}
